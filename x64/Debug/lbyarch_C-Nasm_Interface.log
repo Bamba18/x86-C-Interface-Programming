@@ -1,0 +1,3 @@
+﻿  Performing Custom Build Tools
+  asmfunc.asm:1: warning: label alone on a line without a colon might be in error [-w+label-orphan]
+  lbyarch_C-Nasm_Interface.vcxproj -> C:\Users\Ivan\source\repos\lbyarch_C-Nasm_Interface\x64\Debug\lbyarch_C-Nasm_Interface.exe
