@@ -166,8 +166,6 @@ Execution time for small input sizes (Y = 10 and 100) is nearly instant. As Y in
 - Please Check **Compilation and run video** file
 
 
-
-
 # NOTE: To run performanceTest.c or Main.c 
 - At least one of them has to be excluded from build in Visual studio 2022
 - If none is excluded from build it will not compile and run properly
