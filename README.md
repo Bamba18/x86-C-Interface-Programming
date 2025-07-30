@@ -152,16 +152,29 @@ grade = 0
 
 
 
-# i.) Execution time and short analysis of the performance
+## i.) Execution time and short analysis of the performance
 Execution time for small input sizes (Y = 10 and 100) is nearly instant. As Y increases to 1000 and 10000, the performance remains fast due to the use of SIMD scalar instructions in assembly. The average time for Y = 1000 was ~33 µs, while Y = 10000 remained under 1 ms on our machines. Y = 1000 and 10000 varies (either 0ms or 33ms) depends on the random input given
 
-## Img for performance TEST: 
+### Img for performance TEST: 
 - Please check **Performance Test.png** file
 
-# ii.) Take a screenshot of the program output with the correctness check.
+## ii.) Take a screenshot of the program output with the correctness check.
 - Please Check **Test Cases for outputs** folder
 
 
-# iii.) short videos (5-10mins) showing your source code, compilation, and execution of the C and x86-64 program
+## iii.) short videos (5-10mins) showing your source code, compilation, and execution of the C and x86-64 program
 - Please Check **Compilation and run video** file
+
+
+
+
+# NOTE: To run performanceTest.c or Main.c 
+- At least one of them has to be excluded from build in Visual studio 2022
+- If none is excluded from build it will not compile and run properly
+- This only applies to visual studio
+
+HOW TO EXCLUDE A FILE?
+- Go to the file in Visual Studio
+- right click and go to properties
+- in exclude from build change to yes or no
 
