@@ -147,3 +147,20 @@ not following instructions
 Note: No usage of functional scalar SIMD registers and scalar SIMD instructions, function not in assembly
 
 grade = 0
+
+
+
+
+#i.) Execution time and short analysis of the performance
+Execution time for small input sizes (Y = 10 and 100) is nearly instant. As Y increases to 1000 and 10000, the performance remains fast due to the use of SIMD scalar instructions in assembly. The average time for Y = 1000 was ~33 µs, while Y = 10000 remained under 1 ms on our machines. Y = 1000 and 10000 varies (either 0ms or 33ms) depends on the random input given
+
+##Img for performance TEST: 
+- Please check **Performance Test.png** file
+
+#ii.) Take a screenshot of the program output with the correctness check.
+- Please Check **Test Cases for outputs** folder
+
+
+#iii.) short videos (5-10mins) showing your source code, compilation, and execution of the C and x86-64 program
+- Please Check **Compilation and run video** file
+
