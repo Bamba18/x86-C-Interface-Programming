@@ -163,7 +163,7 @@ Execution time for small input sizes (Y = 10 and 100) is nearly instant. As Y in
 
 
 ## iii.) short videos (5-10mins) showing your source code, compilation, and execution of the C and x86-64 program
-- Please Check **Compilation and run video** file
+- Please Check **LINK FOR video** file
 
 
 # NOTE: To run performanceTest.c or Main.c 
